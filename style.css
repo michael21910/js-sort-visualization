@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+body{
+    background-size: 50vw 50vw;
+    
+    background-color: rgb(255, 240, 198);
+
+    background-image: 
+    linear-gradient(
+        90deg,
+        rgba(255, 255, 255, .3) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255, 255, 255, .3) 50%, 
+        rgba(255, 255, 255, .3) 75%, 
+        transparent 75%, 
+        transparent),
+    linear-gradient(
+        180deg,
+        rgba(255, 255, 255, .3) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255, 255, 255, .3) 50%, 
+        rgba(255, 255, 255, .3) 75%, 
+        transparent 75%, 
+        transparent);
+}

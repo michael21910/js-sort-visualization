@@ -1,0 +1,62 @@
+.title{
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 5vh;
+}
+
+.hintContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hintContainer > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hintContainer > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.showCircle{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    margin-right: 3vw;
+}
+
+.blue{
+    background-color: rgb(156, 168, 184);
+}
+
+.red{
+    background-color: rgb(155, 84, 84);
+}
+
+.green{
+    background-color: rgb(123, 139, 111);
+}
+
+@media screen and (max-width: 720px){
+    .title{
+        font-size: 5.5vw;
+        text-align: center;
+        padding-top: 7.5vw;
+    }
+
+    .hintContainer > div > div{
+        font-size: 3.5vw;
+    }
+
+    .showCircle{
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+}
