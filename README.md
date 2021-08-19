@@ -1,5 +1,5 @@
 # JS Sort Visualization
-Please go to [this webpage](https://michael21910.github.io/demo_sorting/index.html) for more detail or demoing.  
+Please go to [this webpage](https://michael21910.github.io/demo/sort/index.html) for more detail or demoing.  
   
 Sorting is too difficult for those who are exposed to programming languages for the first time.  
 Thus, I wrote this to let them know more by what is sorting.  
