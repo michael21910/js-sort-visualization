@@ -25,6 +25,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .Btns > button{
@@ -47,7 +49,7 @@
 
 @media screen and (max-width: 720px){
     .sortName{
-        font-size: 3.75vw;
+        font-size: 4.25vw;
     }
     
     .circles{
@@ -55,11 +57,16 @@
     }
     
     .circles > div{
-        width: 10vw;
-        height: 10vw;
-        line-height: 10vw;
+        width: 12.5vw;
+        height: 12.5vw;
+        line-height: 12.5vw;
         text-align: center;
-        font-size: 3.625vw;
+        font-size: 4vw;
+    }
+
+    .Btns{
+        margin-top: 1.75vh;
+        margin-bottom: 1.75vh;
     }
 
     .Btns > button{

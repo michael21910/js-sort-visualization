@@ -29,3 +29,8 @@ body{
         transparent 75%, 
         transparent);
 }
+
+#forJS{
+    opacity: 0;
+    transition: 0.5s;
+}
