@@ -7,6 +7,8 @@ Thus, I wrote this to let them know more by what is sorting.
 There are currently two sorting algorithms:  
 * O(n²) - Bubble sort  
 * O(n²) - Selection sort  
+* O(n²) - Exchange sort 
+* O(n²) - INsertion sort
   
 The C++ psuedocode are as follows:  
 ```C++
@@ -24,7 +26,7 @@ for(int i = n - 1; i > 0; i--){
 ```C++
 //Selection sort
 
-//n is the size of the 
+//n is the size of the array
 for(int i = 0; i < n; i++){
   int temp_index = i;
   for(int j = i + 1; j < n; j++){
@@ -37,6 +39,32 @@ for(int i = 0; i < n; i++){
   }
 }
 ```
+```C++
+//Exchange sort
 
+//n is the size of the array
+for(int i = 0; i < n; i++){
+  for(int j = i + 1; j < n; j++){
+    if(arr[i] < arr[j]){
+      swap arr[i] and arr[j]
+    }
+  }
+}
+```
+```C++
+//Insertion sort
+
+//n is the size of the array
+for(int i = 1; i < n; i++){
+  int key = arr[i];
+  int j = i - 1;
+  while(key < arr[j] && j >= 0){
+    arr[j + 1] = arr[j];
+    j--;
+  }
+  arr[j + 1] = key;
+}
+```
+  
 Coding is hard, so you need to put more effort in it to make it worth it.  
 Michael Hsueh 08/18/2021
