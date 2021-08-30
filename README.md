@@ -16,7 +16,7 @@ Algorithms in [this webpage](https://michael21910.github.io/demo/sort/index.html
 * O(n²) - Exchange sort 
 * O(n²) - Insertion sort
   
-## Demonstration
+## Demo
 * O(n²) - Bubble sort  
 ![Bubble sort](https://user-images.githubusercontent.com/78197510/130324057-e1155b8a-c8e1-4fc0-bdee-4788c9d4f524.gif)
 * O(n²) - Selection sort  
