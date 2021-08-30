@@ -9,14 +9,14 @@ Thus, I wrote this to let them know more by what is sorting.
 A sorting algorithm in Computer Science is an algorithm that puts elements of a list into an order.  
 In general, the elements will be in ascending order or decending order.
   
-## What's in this webpage?
+## What's in this webpage? :open_book:
 Algorithms in [this webpage](https://michael21910.github.io/demo/sort/index.html):  
 * O(n²) - Bubble sort  
 * O(n²) - Selection sort  
 * O(n²) - Exchange sort 
 * O(n²) - Insertion sort
   
-## Demo
+## Demo :eyes:
 * O(n²) - Bubble sort  
 ![Bubble sort](https://user-images.githubusercontent.com/78197510/130324057-e1155b8a-c8e1-4fc0-bdee-4788c9d4f524.gif)
 * O(n²) - Selection sort  
