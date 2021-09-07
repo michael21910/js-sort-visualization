@@ -1,20 +1,18 @@
 # JS Sort Visualization
 Please go to [this webpage](https://michael21910.github.io/demo/sort/index.html) for more detail or demoing.  
   
-## Introduction
 Sorting is too difficult for those who are exposed to programming languages for the first time.  
 Thus, I wrote this to let them know more by what is sorting.  
   
-## What is sorting?
-A sorting algorithm in Computer Science is an algorithm that puts elements of a list into an order.  
-In general, the elements will be in ascending order or decending order.
-  
-## What's in this webpage? :open_book:
-Algorithms in [this webpage](https://michael21910.github.io/demo/sort/index.html):  
+Algorithms in [this webpage](https://michael21910.github.io/demo/sort/index.html):    
 * O(n²) - Bubble sort  
 * O(n²) - Selection sort  
 * O(n²) - Exchange sort 
 * O(n²) - Insertion sort
+  
+## What is sorting?
+A sorting algorithm in Computer Science is an algorithm that puts elements of a list into an order.  
+In general, the elements will be in ascending order or decending order.  
   
 ## Demo :eyes:
 * O(n²) - Bubble sort  
@@ -82,3 +80,5 @@ for(int i = 1; i < n; i++){
   arr[j + 1] = key;
 }
 ```
+  
+Michael Hsueh 09/07/2021
