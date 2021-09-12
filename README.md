@@ -81,4 +81,5 @@ for(int i = 1; i < n; i++){
 }
 ```
   
-Michael Hsueh 09/07/2021
+## License
+[MIT](LICENSE) © Tsuen Hsueh
